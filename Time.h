@@ -2,11 +2,9 @@
 using namespace std;
 #include <iomanip>
 
-
-
 void getTime (int &h,int &m){
- cout<<" input hour & min:";
-cin>>h>>m;
+ cout<<endl<<" input hour & min:";
+cin>>setw(h)>>setw(m);
 }
 int subtract(int h1,int m1,int h2,int m2){
   int hour,minute;
@@ -24,7 +22,6 @@ int subtract(int h1,int m1,int h2,int m2){
   else if (hour<0&&minute<0) {
     return hour+24-1;
   }
-
 }
 
 int subtract(int k1,int k2){
