@@ -14,5 +14,5 @@ int main(){
   h3=subtract(h1,m1,h2,m2);  //function 2
   m3=subtract(m1,m2);  //function 3
   cout<<setfill('0')<<setw(2)<<h3<<":";
-  cout<<setfill('0')<<m3<<endl;
+  cout<<setfill('0')<<setw(2)<<m3<<endl;
 }

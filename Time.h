@@ -4,7 +4,7 @@ using namespace std;
 
 void getTime (int &h,int &m){
  cout<<endl<<" input hour & min:";
-cin>>setw(h)>>setw(m);
+cin>>h>>m;
 }
 int subtract(int h1,int m1,int h2,int m2){
   int hour,minute;
